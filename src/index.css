@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body  {
+    background-color: #FFFFF0; /*#8bed9a*/
+    color: #000000;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h3 {
+    text-align: center;
 }
+
+
+.logo {
+    font: 10px;
+    color: #000000;
+    text-align: left;
+    font: "Poppins", sans-serif ;
+} 
+
+#logo {
+    text-align: left;
+    color: #6b5ccb;
+}
+
+.sub {
+    align-items: left;
+}
+
+ul, li {
+    list-style: none;
+    position: relative;
+    padding: 75px 10px;
+    text-align: center;
+}
+
+input {
+    background-color:#FFA07A ;/*cor de fundo*/
+    color: black;/*cor do teto*/
+    height: 2rem; /*para achar o rem: pega o valor X e divide por 16*/
+    align-items: center;
+    padding: 5 2rem;
+    border-radius: 0.4rem; /*arredondar as imagens*/
+    font: 500 0.90rem "DM Sans", sans-serif;
+    
+}
+
+.section {
+    padding: 5rem 5;
+}
+
+/*------------------------------MENU--------------------*/
+
+
+#header {
+    border-bottom: 1px solid #FFC0CB;
+    margin-bottom: 2rem;
+    display: flex; 
+
+    top: 0;
+    left: 0;
+    background-color: #FDF5E6;
+    width: 100%;
+
+}
+
+
+
